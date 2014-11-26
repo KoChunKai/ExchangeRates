@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <ScrollView
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:id="@+id/ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+			
+			<!-- Content here -->
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry01"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/usd" />
+            	<TextView
+                	android:id="@+id/tvbuyorself01"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash01"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice01"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry02"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/hkd" />
+            	<TextView
+                	android:id="@+id/tvbuyorself02"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash02"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice02"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry03"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/gbp" />
+            	<TextView
+                	android:id="@+id/tvbuyorself03"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash03"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice03"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry04"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/aud" />
+            	<TextView
+                	android:id="@+id/tvbuyorself04"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash04"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice04"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry05"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/cad" />
+            	<TextView
+                	android:id="@+id/tvbuyorself05"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash05"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice05"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry06"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/sgd" />
+            	<TextView
+                	android:id="@+id/tvbuyorself06"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash06"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice06"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry07"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/chf" />
+            	<TextView
+                	android:id="@+id/tvbuyorself07"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash07"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice07"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry08"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/jpy" />
+            	<TextView
+                	android:id="@+id/tvbuyorself08"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash08"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice08"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry09"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/thb" />
+            	<TextView
+                	android:id="@+id/tvbuyorself09"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash09"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice09"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry10"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/krw" />
+            	<TextView
+                	android:id="@+id/tvbuyorself10"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash10"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice10"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry11"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/vnd" />
+            	<TextView
+                	android:id="@+id/tvbuyorself11"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash11"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice11"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry12"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/myr" />
+            	<TextView
+                	android:id="@+id/tvbuyorself12"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash12"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice12"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+			<LinearLayout
+			    android:layout_width="fill_parent"
+            	android:layout_height="wrap_content" >
+            	<ImageView
+                	android:id="@+id/imagecountry13"
+                	android:layout_width="100dp"
+                	android:layout_height="80dp"
+                	android:layout_gravity="center_horizontal"
+                	android:scaleType="fitCenter"
+               		android:src="@drawable/cny" />
+            	<TextView
+                	android:id="@+id/tvbuyorself13"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="@string/self"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvspotcash13"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+               		android:gravity="center"
+                	android:text="@string/spotcash"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+            	<TextView
+                	android:id="@+id/tvprice13"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_gravity="center_vertical"
+                	android:gravity="center"
+                	android:text="0.00"
+                	android:textAppearance="?android:attr/textAppearanceLarge"
+                	android:textStyle="bold" />
+    		</LinearLayout>
+    		<!-- Content here --> 
+
+
+    		           
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

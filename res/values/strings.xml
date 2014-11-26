@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >Follow匯率</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_about">關於</string>
+    <string name="self">賣\n出</string>
+    <string name="spotcash">現金\n即期</string>
+    <string name="buy">買\n入</string>
+    <string name="description"></string>
+    <string name="select">小工具設定</string>
+    <string name="about_detail">
+        1.外匯數據來自於台灣銀行所公布\n
+        2.有任何問題或建議歡迎告知我們\n
+        3.如果覺得我們軟體有幫助就給點評分</string>
+    <string name="suggestion">給我們建議或評分</string>
+    <string name="AD_UNIT_ID">ca-app-pub-5486177198741618/3919826081</string>
+</resources>
